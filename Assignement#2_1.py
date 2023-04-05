@@ -19,7 +19,8 @@ while True:
     )
 
     #Ask the user for the encrypted text he/she wants to decrypt
-    user_input = str(input(Fore.WHITE + "Kindly enter the encrypted text that you want to decrypt: "))
+    print(Fore.MAGENTA + Style.NORMAL + "Kindly enter the encrypted text that you want to decrypt: ", end = "")
+    user_input = input(Fore.WHITE + "")
 
     #Decrypt the text by replacing/changing the following characters with their corresponding alphabet
     chars_substitute = {"*": "a", "&": "e", "#": "i", "+": "o", "!":"u"}
