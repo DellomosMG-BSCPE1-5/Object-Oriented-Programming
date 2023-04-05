@@ -44,7 +44,7 @@ while True:
     print(Fore.MAGENTA + "=" * 105)
     from rich.console import Console
     console = Console()
-    console.print("[bold magenta]Here is the descrypted format of your input[/bold magenta]: ", decrypted_txt)
+    console.print("[bold magenta]Here is the decrypted format of your input[/bold magenta]: ", decrypted_txt)
     print(Fore.MAGENTA + "=" * 105)
     
     #Ask the user if he/she wants to try again the program.
